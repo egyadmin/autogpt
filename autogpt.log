@@ -1,0 +1,132 @@
+2025-04-29 14:12:05,030 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:12:05,032 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:12:05,056 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Agent.__init__() got an unexpected keyword argument 'description'
+Traceback (most recent call last):
+  File "C:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 101, in main
+    agent = system.create_agent(
+        name="AssistantAgent",
+        goal="„”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…",
+        tools=tools_to_use
+    )
+  File "C:\Users\Tamer ELGohary\Desktop\autogpt\core\autogpt.py", line 214, in create_agent
+    agent = Agent(
+        name=name,
+    ...<6 lines>...
+        learning_service=self.learning_service
+    )
+TypeError: Agent.__init__() got an unexpected keyword argument 'description'
+2025-04-29 14:12:43,343 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:12:43,344 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:12:43,347 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Agent.__init__() got an unexpected keyword argument 'description'
+Traceback (most recent call last):
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 101, in main
+    agent = system.create_agent(
+        name="AssistantAgent",
+        goal="„”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…",
+        tools=tools_to_use
+    )
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\autogpt.py", line 214, in create_agent
+    agent = Agent(
+        name=name,
+    ...<6 lines>...
+        learning_service=self.learning_service
+    )
+TypeError: Agent.__init__() got an unexpected keyword argument 'description'
+2025-04-29 14:13:21,598 - autogpt - ERROR - ÊÕœ… core.autogpt €Ì— „ÊÃÊœ…° Ì—ÃÏ «· √ﬂœ „‰ ÂÌﬂ· «·„‘—Ê⁄
+2025-04-29 14:18:10,484 - autogpt - ERROR - ÊÕœ… core.autogpt €Ì— „ÊÃÊœ…° Ì—ÃÏ «· √ﬂœ „‰ ÂÌﬂ· «·„‘—Ê⁄
+2025-04-29 14:18:35,493 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:18:35,494 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:18:35,496 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Agent.__init__() got an unexpected keyword argument 'description'
+Traceback (most recent call last):
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 101, in main
+    agent = system.create_agent(
+        name="AssistantAgent",
+        goal="„”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…",
+        tools=tools_to_use
+    )
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\autogpt.py", line 216, in create_agent
+    agent = Agent(
+        name=name,
+    ...<6 lines>...
+        learning_service=self.learning_service
+    )
+TypeError: Agent.__init__() got an unexpected keyword argument 'description'
+2025-04-29 14:21:55,976 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:21:55,977 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:21:55,979 - autogpt - INFO - Created new agent: AssistantAgent (ID: ccfaf491-ef30-429b-ab97-fe739827df7a)
+2025-04-29 14:21:55,981 - autogpt - INFO - Agent 'AssistantAgent': Agent Started - Starting with goal: „”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…
+2025-04-29 14:21:55,981 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Task.__init__() got an unexpected keyword argument 'priority'
+Traceback (most recent call last):
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 111, in main
+    agent.start()
+    ~~~~~~~~~~~^^
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 81, in start
+    main_task = self.add_task("Main Goal", self.goal, priority=10, tags=["main", "auto-generated"])
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 54, in add_task
+    task = Task(
+        name=name,
+    ...<3 lines>...
+        tags=tags or []
+    )
+TypeError: Task.__init__() got an unexpected keyword argument 'priority'
+2025-04-29 14:23:21,909 - autogpt - WARNING - ÊÕœ… tools.web_search €Ì— „ÊÃÊœ…° «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:23:21,909 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: cannot import name 'Tool' from 'tools.tool' (c:\Users\Tamer ELGohary\Desktop\autogpt\tools\tool.py)
+Traceback (most recent call last):
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 73, in main
+    tool = create_mock_tool("WebSearchTool", "√œ«… „Õ«ﬂ«… ··»ÕÀ ⁄·Ï «·ÊÌ»")
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 31, in create_mock_tool
+    from tools.tool import Tool
+ImportError: cannot import name 'Tool' from 'tools.tool' (c:\Users\Tamer ELGohary\Desktop\autogpt\tools\tool.py)
+2025-04-29 14:27:00,953 - autogpt - WARNING - ÊÕœ… tools.web_search „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:00,953 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:27:00,954 - autogpt - WARNING - ÊÕœ… tools.content_generator „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:00,954 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:27:00,954 - autogpt - WARNING - ÊÕœ… tools.web_scraping „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:00,955 - autogpt - INFO - Tool registered: WebScrapingTool
+2025-04-29 14:27:00,955 - autogpt - WARNING - ÊÕœ… tools.file_operations „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:00,955 - autogpt - INFO - Tool registered: FileOperationsTool
+2025-04-29 14:27:00,955 - autogpt - WARNING - ÊÕœ… tools.data_analysis „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:00,956 - autogpt - INFO - Tool registered: DataAnalysisTool
+2025-04-29 14:27:00,956 - autogpt - INFO - Created new agent: AssistantAgent (ID: 9488b2e6-332c-4147-bacc-b946cbc5ab94)
+2025-04-29 14:27:00,957 - autogpt - INFO - Agent 'AssistantAgent': Agent Started - Starting with goal: „”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…
+2025-04-29 14:27:00,958 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Task.__init__() got an unexpected keyword argument 'priority'
+Traceback (most recent call last):
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 168, in main
+    agent.start()
+    ~~~~~~~~~~~^^
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 81, in start
+    main_task = self.add_task("Main Goal", self.goal, priority=10, tags=["main", "auto-generated"])
+  File "c:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 54, in add_task
+    task = Task(
+        name=name,
+    ...<3 lines>...
+        tags=tags or []
+    )
+TypeError: Task.__init__() got an unexpected keyword argument 'priority'
+2025-04-29 14:27:41,632 - autogpt - WARNING - ÊÕœ… tools.web_search „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:41,632 - autogpt - INFO - Tool registered: WebSearchTool
+2025-04-29 14:27:41,633 - autogpt - WARNING - ÊÕœ… tools.content_generator „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:41,633 - autogpt - INFO - Tool registered: ContentGeneratorTool
+2025-04-29 14:27:41,634 - autogpt - WARNING - ÊÕœ… tools.web_scraping „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:41,634 - autogpt - INFO - Tool registered: WebScrapingTool
+2025-04-29 14:27:41,634 - autogpt - WARNING - ÊÕœ… tools.file_operations „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:41,634 - autogpt - INFO - Tool registered: FileOperationsTool
+2025-04-29 14:27:41,635 - autogpt - WARNING - ÊÕœ… tools.data_analysis „›ﬁÊœ…° ”Ì „ «” Œœ«„ √œ«… „Õ«ﬂ«…
+2025-04-29 14:27:41,635 - autogpt - INFO - Tool registered: DataAnalysisTool
+2025-04-29 14:27:41,635 - autogpt - INFO - Created new agent: AssistantAgent (ID: 9ab700a5-0bab-4a2e-989a-730557dbf507)
+2025-04-29 14:27:41,637 - autogpt - INFO - Agent 'AssistantAgent': Agent Started - Starting with goal: „”«⁄œ… «·„” Œœ„ ›Ì «·„Â«„ «·„Œ ·›…
+2025-04-29 14:27:41,637 - autogpt - ERROR - Œÿ√ √À‰«¡  ‘€Ì· «·‰Ÿ«„: Task.__init__() got an unexpected keyword argument 'priority'
+Traceback (most recent call last):
+  File "C:\Users\Tamer ELGohary\Desktop\autogpt\main.py", line 168, in main
+    agent.start()
+    ~~~~~~~~~~~^^
+  File "C:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 81, in start
+    main_task = self.add_task("Main Goal", self.goal, priority=10, tags=["main", "auto-generated"])
+  File "C:\Users\Tamer ELGohary\Desktop\autogpt\core\agent.py", line 54, in add_task
+    task = Task(
+        name=name,
+    ...<3 lines>...
+        tags=tags or []
+    )
+TypeError: Task.__init__() got an unexpected keyword argument 'priority'
